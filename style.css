@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.wrapper{
+    width: 80%;
+    height: 80vh;
+    background-color: rgb(104, 102, 102);
+    margin: 0 auto;
+    margin-top: 70px;
+    position: relative;
+}
+.circle-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    background-color: white;
+    border-bottom-right-radius: 80%;
+}
+.circle-2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    height: 80px;
+    /* border: 2px solid black; */
+    background-color: white;
+    border-Top-left-radius: 80%;
+}
+p{
+    font-family: sans-serif;
+    font-size: 31px;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px 50px;
+    color: white;
+    background-color: rgb(106, 104, 104);
+}
+.main-text{
+    width: 70%;
+    /* height: 150px; */
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.fam-heading{
+    background-color: white;
+    
+
+}
+div[class*="box"]{
+    width: 30%;
+    height: 280px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+div[class*="box"] p{
+    padding: 5px 15px;
+}
+.family-members{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 30px;
+}
+.image-1{
+    width: 100px;
+    height: 100px;
+    background: url(../../../Images/IMG-20220713-WA0011.jpg)no-repeat center center/cover;
+    border-radius: 50%;
+   margin: 18px 0 10px;
+}
+.image-2{
+    width: 100px;x
+    height: 100px;
+    background: url(../../../Images/IMG20230430085337.jpg)no-repeat center center/cover;
+    border-radius: 50%;
+   margin: 18px 0 10px;
+}
+.image-3{
+    width: 100px;
+    height: 100px;
+    background: url(../../images/krishna.jpg)no-repeat center center/cover;
+    border-radius: 50%;
+   margin: 18px 0 10px;
+}
+
+#star-six {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(255, 255, 255);
+    position: relative;
+  }
+  #star-six:after {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid rgb(255, 255, 255);
+    position: absolute;
+    content: "";
+    top: 30px;
+    left: -50px;
+  }
